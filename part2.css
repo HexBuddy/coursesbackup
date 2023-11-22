@@ -2,26 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #fafafa; /* Light gray background */
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Dark gray header */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: #444;
+    background-color: #444; /* Darker gray navigation bar */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #fff; /* White navigation links */
     text-decoration: none;
     margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 section {
@@ -31,7 +35,7 @@ section {
 
 img {
     max-width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Light gray image border */
     border-radius: 5px;
     margin-bottom: 10px;
     display: block;
@@ -43,4 +47,7 @@ img {
 .leader, .area {
     padding: 20px;
     text-align: center;
+    background-color: #fff; /* White background for leader and area sections */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
 }
