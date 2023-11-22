@@ -3,75 +3,44 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
-  }
-  
-  nav {
+}
+
+nav {
     background-color: #444;
     padding: 10px;
-  }
-  
-  nav ol {
-    list-style: none;
-    padding: 0;
-    display: block;
     text-align: center;
-  }
-  
-  nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: white;
     text-decoration: none;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  img {
-    max-width: 100%;
+    margin: 0 15px;
+}
 
-  }
-  .center {
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
-
-
-/* leaders page */
-.leader {
-  padding: 20px;
-  text-align: center;
 }
 
-.leader img {
-  max-width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-/* areas page */
-.area {
-  padding: 20px;
-  text-align: center;
-}
-
-.area img {
-  max-width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 10px;
+/* leaders and areas page */
+.leader, .area {
+    padding: 20px;
+    text-align: center;
 }
