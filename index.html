@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .course {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .course img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #courseDescription {
+            display: none;
+            margin-top: 10px;
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function showDescription() {
+            var description = document.getElementById('courseDescription');
+            description.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Welcome to Our Courses!</h1>
+
+    <div class="course" onclick="showDescription()">
+        <img src="course1.jpg" alt="Course 1">
+        <h2>Course 1</h2>
+        <div id="courseDescription">
+            <p>Description: This is an amazing course that covers various topics. Learn and excel in your chosen field.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+    </div>
+
+    <div class="course" onclick="showDescription()">
+        <img src="course2.jpg" alt="Course 2">
+        <h2>Course 2</h2>
+        <div id="courseDescription">
+            <p>Description: Explore new concepts and skills with this comprehensive course. Get ready for an exciting learning journey.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+    </div>
+
+    <div class="course" onclick="showDescription()">
+        <img src="course3.jpg" alt="Course 3">
+        <h2>Course 3</h2>
+        <div id="courseDescription">
+            <p>Description: Dive deep into advanced topics and enhance your expertise. Unlock new opportunities with this course.</p>
+            <a href="#" class="btn">Download</a>
+        </div>
+    </div>
+
+    <div>
+        <a href="#" class="btn">Contact Me</a>
+        <a href="#" class="btn">Join Our Community</a>
+    </div>
+
+</body>
+</html>
